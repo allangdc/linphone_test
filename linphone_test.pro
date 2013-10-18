@@ -15,7 +15,8 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    linphonecall.cpp
+    linphonecall.cpp \
+    callp.cpp
 
 INCLUDEPATH += /usr/include/linphone/
 
@@ -25,5 +26,6 @@ LIBS += -L:/usr/local/lib/ \
 #-llinphone -lmediastreamer -lortp
 
 HEADERS += \
-    linphonecall.h
+    linphonecall.h \
+    callp.h
 

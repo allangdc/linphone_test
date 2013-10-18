@@ -153,8 +153,13 @@ void MyLinphoneCall::Call(QString dest)
     }
 }
 
+
+
+
 /*!
  * \brief MyLinphoneCall::Authentication
+ *
+ * inicia a autenticaçao com o servidor.
  */
 void MyLinphoneCall::Authentication()
 {
