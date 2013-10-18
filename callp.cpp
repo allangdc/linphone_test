@@ -4,3 +4,8 @@ CallP::CallP(QObject *parent) :
     QObject(parent)
 {
 }
+
+void CallP::Init()
+{
+
+}
